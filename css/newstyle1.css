@@ -1,0 +1,77 @@
+    .body {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Queens-Room.jpg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50;
+        background-attachment: fixed;
+        text-align: center;
+        font-family: 'Fredoka One', cursive;
+        color: lightgoldenrodyellow;
+        font-size: large;
+    }
+    
+    .form1 {
+        background-color: transparent;
+        border-radius: 17px;
+        display: inline-block;
+        padding: 6px;
+    }
+    
+    .textbox {
+        padding: 15px 90px 15px 90px;
+        border: 2px solid #9e7f31;
+        background: #ffffff;
+        margin: 18px 0px 15px 0px;
+        border-radius: 25px;
+        -moz-border-radius: 25px;
+        margin: 5px auto 5px auto;
+        font-family: 'Fredoka One', cursive;
+        text-align: center;
+    }
+    
+    .button1 {
+        border: 1px solid #9e7f31;
+        border-radius: 25px;
+        background: white;
+        color: rgb(69, 69, 70);
+        padding: 30px;
+        font-size: 21px;
+        font-family: 'Fredoka One', cursive;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        transition-duration: 0.3s;
+        cursor: pointer;
+        position: center;
+        margin-left: 35px;
+    }
+    
+    .button1:hover {
+        background-color: #9e7f31;
+        color: white;
+    }
+    
+    .button2 {
+        border: 1px solid #9e7f31;
+        border-radius: 25px;
+        color: rgb(69, 69, 70);
+        background: white;
+        padding: 30px;
+        font-size: 21px;
+        font-family: 'Fredoka One', cursive;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        transition-duration: 0.3s;
+        cursor: pointer;
+        position: center;
+        margin-right: 25px;
+    }
+    
+    .button2:hover {
+        background-color: #9e7f31;
+        color: white;
+    }

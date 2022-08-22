@@ -1,0 +1,139 @@
+.col {
+    background-color: blue;
+}
+
+.first {
+    background-image: url(../img/home/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffdf;
+    background-attachment: fixed;
+}
+
+.aria {
+    display: table;
+    width: 100%;
+}
+
+.aria-cont {
+    display: table-column;
+}
+
+.secound {
+    height: 50vh;
+}
+
+.third {
+    background-image: url(../img/home/event.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #faf60ff5;
+}
+
+.floatnav {
+    float: right;
+}
+
+.h {
+    margin-top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.space {
+    height: 100vh;
+}
+
+.center {
+    text-align: center;
+}
+
+.t {
+    margin-left: 4%;
+    font-size: 40px;
+}
+
+.tx {
+    font-size: 25px;
+    color: #516477;
+    margin-right: 50%;
+}
+
+.av {
+    width: 25vh;
+    padding-left: 30%;
+}
+
+.cent {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    padding-top: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.alin {
+    height: 38%;
+    width: 38%;
+    float: right;
+    padding-right: 5%;
+}
+
+.gal-row {
+    display: flexbox;
+}
+
+.web-img {
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 20%;
+    min-width: 350px;
+    height: 25vh;
+    object-fit: cover;
+    object-position: 20% 10px;
+}
+
+.middle {
+    padding-right: 50%;
+}
+
+.font {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+}
+
+.size {
+    width: 25%;
+    height: 25%;
+}
+
+.set1 {
+    background-image: url(3.jpg);
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
+
+
+/*change the options when sceen size falls bellow 500px*/
+
+
+/*jidcicpid*/
+
+@media only screen and (max-width: 500px) {
+    .web-img {
+        width: 100%;
+    }
+    .gal-row {
+        margin-left: 0;
+    }
+    .middle {
+        padding-right: 0;
+    }
+    .tx {
+        font-size: 10px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+}

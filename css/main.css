@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Philosopher&display=swap');
+body {
+    margin: 0;
+    font-family: 'Philosopher', sans-serif;
+    background-color: rgb(48, 48, 48);
+}
+
+.about-img {
+    height: 20vh;
+}
+
+.hero {
+    /*<span>Photo by <a href="https://unsplash.com/@editorskeys?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Editors Keys</a> on <a href="https://unsplash.com/s/photos/computer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
+    background-image: url("../img/hero.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+#mainTitle {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}

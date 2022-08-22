@@ -1,0 +1,38 @@
+body {
+    background-image:url("../img/contact1/Queen-Room.jpg");
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+  }
+  
+  
+
+  .color{
+      color:white;
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    margin-left:76%;
+    
+    
+  }
+
+  
+
+.th{
+    background-color: white;
+    opacity:0.8;
+    
+}
+
+
